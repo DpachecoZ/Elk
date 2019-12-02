@@ -12,6 +12,7 @@ import { HomeComponent } from './components/home/home.component';
 import { NavBarComponent } from './components/shared/nav-bar/nav-bar.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { AtencionClientesComponent } from './components/atencion-clientes/atencion-clientes.component';
+import { TerminosComponent } from './components/terminos/terminos.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { AtencionClientesComponent } from './components/atencion-clientes/atenci
     HomeComponent,
     NavBarComponent,
     FooterComponent,
-    AtencionClientesComponent
+    AtencionClientesComponent,
+    TerminosComponent
   ],
   imports: [
     BrowserModule,
