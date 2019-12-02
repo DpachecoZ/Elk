@@ -11,6 +11,7 @@ import { RegistroComponent } from './components/registro/registro.component';
 import { HomeComponent } from './components/home/home.component';
 import { NavBarComponent } from './components/shared/nav-bar/nav-bar.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
+import { AtencionClientesComponent } from './components/atencion-clientes/atencion-clientes.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FooterComponent } from './components/shared/footer/footer.component';
     RegistroComponent,
     HomeComponent,
     NavBarComponent,
-    FooterComponent
+    FooterComponent,
+    AtencionClientesComponent
   ],
   imports: [
     BrowserModule,

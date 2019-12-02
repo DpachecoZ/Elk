@@ -8,9 +8,9 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-12">
+        <div class="col-lg-12" style="align-items: center;">
             <div class="tm-video-container">
-                <video id="tm-welcome-video" class="tm-welcome-video" autoplay="" loop="" muted="" width="950px">
+                <video id="tm-welcome-video" class="tm-welcome-video w-100" autoplay="" loop="" muted="" >
                         <source src="../../../assets/videos/video.mp4" type="video/mp4"> Your browser does not support the video tag.
                         </video>
                 <div id="tm-video-loader"></div>
@@ -51,7 +51,7 @@
                         <div class="tm-bg-dark-light tm-timeline-description">
                             <h3 class="tm-text-cyan tm-font-400">Artistas en exhibición.</h3>
                             <p>Romero Bertuchi, Greta Savineh, Cielo Aceves, Arantza Izquierdo, Camila Zambrano, Brisa Delgado, Flor Amargo, Enrique Ferras Gómez, Rafael Zalazar, Ivan Arias.</p>
-                            <a class="tm-text-cyan float-right mb-0" href="https://xvideos.com/"> Visitanos Aquí</a>
+                            <a class="tm-text-cyan float-right mb-0" > Visitanos Aquí</a>
                         </div>
                     </div>
                 </div>
@@ -87,7 +87,7 @@
                     <div class="tm-timeline-description-wrap">
                         <div class="tm-bg-dark-light tm-timeline-description">
                             <h3 class="tm-text-orange tm-font-400">Colecciones</h3>
-                            <p>Visita nuestras colecciones<a href="colecciones.html"> Aquí</a> para revisar a los artistas.</p>
+                             <a [routerLink]="['coleccion']">Visita nuestras colecciones aqui para revisar a los artistas</a>
                             <p class="tm-text-orange float-right mb-0"></p>
                         </div>
                     </div>
@@ -106,15 +106,18 @@
                     </p>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 pr-lg-5 mb-md-0 mb-4">
-                    <h3 class="mt-2 mb-3 tm-text-gray">¿por qué visitarnos? </h3>
+                    <h3 class="mt-2 mb-3 tm-text-gray">¿Por qué visitarnos? </h3>
                     <p>Tenemos variedad de contenido e información artística. Nuestros artistias están comprometidos con la creación de arte y con nuestros clientes.
                     </p>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <h3 class="mt-2 mb-3 tm-text-gray">Visitas</h3>
-                    <p>HORARIOS DE VISITAS <br> <br> LUNES A VIERNES : 10:00 -- 18:10 Hrs <br> SAB Y DOM : 10:0 -- 20:00 Hrs <br></p>
+                    <p>HORARIOS DE VISITAS <br> <br> LUNES A VIERNES : 10:00 -- 18:10 Hrs <br> SAB Y DOM : 10:00 -- 20:00 Hrs <br></p>
                 </div>
             </div>
+            <hr>
+            <br>
+            <br>
             <div class="row tm-section-mt">
                 <div class="col-lg-6">
                     <h3 class="mb-4 tm-text-gray">Donde encontrarnos</h3>
